@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ArmyUnits\ArmyUnit.h" />
+    <ClInclude Include="ArmyUnits\Earth\EarthTank.h" />
+    <ClInclude Include="ArmyUnits\Earth\EarthSoldier.h" />
+    <ClInclude Include="ArmyUnits\Earth\EarthGunnery.h" />
+    <ClInclude Include="ArmyUnits\Alien\AlienDrone.h" />
+    <ClInclude Include="ArmyUnits\Alien\AlienMonster.h" />
+    <ClInclude Include="ArmyUnits\Alien\AlienSoldier.h" />
+    <ClInclude Include="Generator.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="GameRules.h" />
+    <ClInclude Include="EarthArmy.h" />
+    <ClInclude Include="ADS\priNode.h" />
+    <ClInclude Include="ADS\ArrayStack.h" />
+    <ClInclude Include="ADS\LinkedQueue.h" />
+    <ClInclude Include="ADS\Node.h" />
+    <ClInclude Include="ADS\priQueue.h" />
+    <ClInclude Include="ADS\QueueADT.h" />
+    <ClInclude Include="ADS\StackADT.h" />
+    <ClInclude Include="AlienArmy.h" />
+    <ClInclude Include="ADS\ArrayBag.h" />
+    <ClInclude Include="ADS\Deque.h" />
+    <ClInclude Include="ArmyUnits\Earth\Healer.h" />
+    <ClInclude Include="ArmyUnits\Earth\Saver.h" />
+    <ClInclude Include="AllyArmy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArmyUnits\ArmyUnit.cpp" />
+    <ClCompile Include="ArmyUnits\Earth\EarthSoldier.cpp" />
+    <ClCompile Include="ArmyUnits\Earth\EarthTank.cpp" />
+    <ClCompile Include="ArmyUnits\Earth\EarthGunnery.cpp" />
+    <ClCompile Include="ArmyUnits\Alien\AlienDrone.cpp" />
+    <ClCompile Include="ArmyUnits\Alien\AlienMonster.cpp" />
+    <ClCompile Include="ArmyUnits\Alien\AlienSoldier.cpp" />
+    <ClCompile Include="Generator.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GameRules.cpp" />
+    <ClCompile Include="EarthArmy.cpp" />
+    <ClCompile Include="AlienArmy.cpp" />
+    <ClCompile Include="ArmyUnits\Earth\Healer.cpp" />
+    <ClCompile Include="ArmyUnits\Earth\Saver.cpp" />
+    <ClCompile Include="AllyArmy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ID.txt" />
+    <Text Include="scores.txt" />
+  </ItemGroup>
+</Project>
